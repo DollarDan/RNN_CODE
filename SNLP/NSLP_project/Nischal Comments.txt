@@ -1,0 +1,29 @@
+Overall, your approach to the problem is excellent. You have attempted all parts of the assignment with right answers. Good.
+
+Areas of Focus
+
+5) This question is not answered. Comparison between true labels and model predicted labels has not been printed for few examples. (5 marks deducted)
+
+Areas performed well
+
+Part 1
+
+1) Imported all the essential libraries for the assignment. Imported the data in .csv file as pandas data frame. And all the attributes have been clearly defined and the observations regarding each attribute are clearly documented. The shape of dataset is printed, A small portion of the dataset is sampled for further model building since the dataset size is large, good. The data types and info of each column are printed. The unique values and value counts in each attributes are printed, good.
+
+2) Data pre-processing is performed on the ‘text’ column. Regular expressions is used for removing unwanted characters, symbols, numeric’s and spaces from the raw text data. The text is converted into lowercase. Stop words are imported from the nltk library and the stop words are removed from the text. Additionally other data preprocessing steps like lemmatization and stemming are performed on text column.
+All the labels (“gender”, “age”, “topic”, “sign”) are merged, to make this into a multi-label classification problem, Good. And the labels are encoded. The data frame now has only 2 columns (text, labels). Good
+The data is separated into features (text) and labels (“gender”, “age”, “topic”, “sign”) and split into training and testing set by using sklearn’s train_test_split function and specifying test size as 0.2 ,Good
+
+Bag of words has been created using count vectorizer and term document matrix has been generated, Good. TF-IDF vectorizer is also used to convert the raw data into term document matrix, good.
+
+3) Multi class classification models are built. The classification models like Decision tree classifier, Catboost classifier wrapped with OneVsRestclassifier are built on the pre-processed data corpus, good. Artificial neural network model is built for classifcation, having architecture of one input layer, 5 hidden layers with activation function of ‘relu’ and 1 output layer with an activation function of ‘softmax’. The optimizer is set as ‘adam’ and loss function as ‘categorical crossentropy’ and epoch is set as 5, Good.
+
+4) The accuracy of all the classification models is printed. Other evaluation metrics like confusion metrics, classification reports, Precision, recall, F1-score are printed for all the classification models. The comparison of accuracies is made and Logistic regression classifier is selected as the best moel and detailed analysis of the results is documented.
+
+Part 2
+
+1. Imported all the necessary libraries for the assignment, good. Imported the data corpus in Json file. Pre-processed the data like removal of stop words, converting to lowercase, removal of unwanted characters, symbols, spaces, numeric’s etc.
+
+2. Artificial neural network model is built for classifying the words with tag, having architecture of one input layer, 3 hidden layer with activation function of ‘Leakyrelu’ and 1 output layers with an activation function of ‘softmax’. The optimizer is set as ‘adam’ and loss function as ‘categorical crossentropy’ and epoch is set as 100, Good. And the the model is pickeled for further usage of making predictions in chatbot.
+
+3. Built a semi-rule based chatbot which Start chat session with greetings and ask what the user is looking for. Accepted the dynamic text based on the input questions from the user. Reply back with relevant answer from the designed corpus based on the cosine similarity. Ended the chat session when the user requested to end else asked what the user is looking for. Loop continues till the user asks to end it, good.
