@@ -1,0 +1,30 @@
+Overall, your approach to the problem is ok. You have attempted few parts of the assignment with right answers. Lots of Improvements are required in few sections of the assignment.
+
+Areas of Focus:
+
+Part-1:
+
+2) Data pre-processing is performed on the ‘text’ column. Regular expressions is used for removing unwanted characters, symbols, numeric’s and spaces from the raw text data. The text is converted into lowercase. Stop words are imported from the nltk library and the stop words are removed from the text. Additionally other data preprocessing steps like lemmatization and stemming are performed on text column.
+The data is separated into features (text) and labels “gender”, “age” and “sign”)and split into training and testing set by using sklearn’s train_test_split function and specifying test size as 0.3 ,Good
+
+Bag of words has been created using count vectorizer and term document matrix has been generated, Good. TF-IDF vectorizer is also used to convert the raw data into term document matrix, good.
+
+But All the labels (“gender”, “age”, “topic”, “sign”) are not merged, to make this into a multi-label classification problem. And the labels are not encoded, Instead the target variables “gender”, “age” and “sign” are separately considered . The data frame is not converted into only 2 columns (text, labels). (5 marks deducted)
+
+3) Multi class classification models are built. The classification models like Naïve bayes classifier and Support vector classifier are built on the pre-processed data corpus, good. But it was expected to train on the target variable the combined labels instead its trained separately for individual labels ‘gender’, ‘age’ and ‘sign’ . Thus the comparison of evaluation metrics is difficult to comprehend. (5 marks deducted)
+
+4) Only the accuracy of the classification models are printed. Other evaluation metrics like confusion metrics, classification reports, Precision, recall, F1-score are missing for both the classification models. The detailed comparison, insights/explanation about the performance of both the models is missing. (2 marks deducted)
+
+5) This question is not answered. Comparison between true labels and model predicted labels has not been printed for few examples. (5 marks deducted)
+
+Areas performed well:
+
+Part 1:
+
+1) Imported all the essential libraries for the assignment. Imported the data in .csv file as pandas data frame. And all the attributes have been clearly defined and the observations regarding each attribute are clearly documented. The shape of dataset is printed, A small portion of the dataset is sampled for further model building since the dataset size is large, good. The data types and info of each column are printed. The unique values and value counts in each attributes are printed, good.
+
+Part 2:
+
+1. Imported all the necessary libraries for the assignment, good. Imported the data corpus in Json file. Pre-processed the data like removal of stop words, converting to lowercase, removal of unwanted characters, symbols, spaces, numeric’s etc.
+
+2. Built a semi-rule based chatbot which Start chat session with greetings and ask what the user is looking for. Accepted the dynamic text based on the input questions from the user. Reply back with relevant answer from the designed corpus based on the cosine similarity. Ended the chat session when the user requested to end else asked what the user is looking for. Loop continues till the user asks to end it, good.
