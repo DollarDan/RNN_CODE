@@ -1,0 +1,120 @@
+https://www.geeksforgeeks.org/numpy-argmax-python/
+classification report 
+true negatives
+false positives
+
+https://drive.google.com/file/d/189E4VGans073FhMPBldJSeG6eHu1api-/view    resume review
+
+human in the loop ai - g
+appen data annotation platform -google
+https://stackoverflow.com/questions/9652832/how-to-load-a-tsv-file-into-a-pandas-dataframe
+https://towardsdatascience.com/sentiment-analysis-vader-or-textblob-ff25514ac540
+lemmatization vs stemming 
+textblob vs vader 
+github autopilot
+towards data science guest hand gestures
+seeing ai
+affectiva
+horizon movie OIL
+china satellite using computer vision
+how do open source companies make money
+yan li kun deep learning
+https://stackoverflow.com/questions/49964028/spacy-oserror-cant-find-model-en
+https://github.com/explosion/spaCy/issues/4577
+https://copypaste.guru/WhereIsMyPythonModule/how-to-fix-modulenotfounderror-no-module-named-svgling
+file:///C:/Program%20Files/gs/gs9.56.1/doc/Readme.htm
+https://drive.google.com/drive/folders/1Z-IS46BgkXWxNElAGxtlIqfZPilC9Tja
+https://www.webex.com/
+https://blog.webex.com/video-conferencing/whats-new-in-webex-january-2021/
+naive gbm
+light gbm 
+cat boost
+xtra tree regresser
+hash encoding 
+woe encoding (weight of evidence)
+all encoders
+keras embading layers
+towardsdatascience different cateroical encoding woe
+sklearn.feature_ex.... FearureHasher
+smater ways to encode cateroical data for machine learning part 1, 2, 3 towardsdatascience
+
+tfidf 
+word embedding
+gira software
+tensorflow/keras/metrics
+tensorboard callback vs history 
+neural network playground - PLAY WITH IT
+pause model.fit()
+https://playground.tensorflow.org/#activation=tanh    (PLAY WITH GITHUB)
+https://github.com/tensorflow/playground
+VISUALIZING ABD UNDERSTING DL by Matt  Zeiler - Youtube  -- https://www.youtube.com/watch?v=ghEmQSxT6tw
+deep neural network are easily fooled
+https://arxiv.org/abs/1412.1897
+https://www.youtube.com/watch?v=M2IebCN9Ht4&ab_channel=EvolvingAILab
+https://www.enterpriseai.news/2020/06/05/deep-neural-networks-are-easily-fooled-heres-how-explainable-ai-can-help/
+IMAGE OCCLUSION TO SOLVE THE PROBLEM B hinging different parts
+mnist convoltional neural network (poloclub.github.io/cnn-explainer)
+ASI Incometax portal 
+Google AI Experiments. (Experiments.withgoogle.com/collection/ai)
+https://projector.tensorflow.org/
+https://code.google.com/archive/p/word2vec/
+embedding layer in NLP
+lambda and apply
+
+light gbm 250 and extra tree regresser 500
+mean bias and varience when we use .fit()
+transform() will apply the mean and bias on the data.
+Regular Expressions
+
+
+
+TF (Term Freqency): It says the importance of the term in that document. No of term repeated devided by total no of words
+
+
+IDF Inverse document Freqency: log ( num of doc / no of docs having the word). It tells how important that word across all the documents. A word that is in all documents will have value of IDF as Zero. 
+And its has no importance and it is zero varience feature. Higher the0 IDF value tells that term is very important.
+    Used to find stop words, manual drop, preprocessing, 
+    Plot histogram for IDF for all the terms. 
+
+TF IDF  is a dataframe with terms as columns and documents as rows. and value is TF('trem', Doc #1) * IDF('term'). 
+TF.IDF says howmuch the trem is important in that document and across the documents. 
+
+
+
+Word2Vec
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
