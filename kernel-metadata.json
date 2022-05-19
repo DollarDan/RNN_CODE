@@ -1,0 +1,25 @@
+{
+  "id": "code/vbmokin/nlp-for-ua-bert-classification-for-water-report",
+  "id_no": 13126911,
+  "title": "NLP for UA : BERT Classification for Water Report",
+  "code_file": "nlp-for-ua-bert-classification-for-water-report.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "nlp",
+    "binary classification",
+    "pytorch",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "transformers"
+  ],
+  "dataset_sources": [
+    "datasets/vbmokin/nlp-reports-news-classification"
+  ],
+  "kernel_sources": [],
+  "competition_sources": []
+}
